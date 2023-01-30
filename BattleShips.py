@@ -414,7 +414,7 @@ class Ship:
 
 if __name__ == '__main__':
 
-    players = [Player(name='Captan', is_ai=False, auto_ship=True, skill=1),
+    players = [Player(name='Captain', is_ai=False, auto_ship=True, skill=1),
                Player(name='AI', is_ai=True, auto_ship=True, skill=1)]
 
     game = Game()
